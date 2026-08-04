@@ -17,16 +17,16 @@
 
 ```mermaid
 flowchart TD
-    A["① 해석 의뢰<br/><i>설계 도면, 요구 SPEC</i>"] --> B["② Part 모델 준비<br/><i>CAD .step/.iges</i>"]
-    B --> C["③ Property 설정<br/><i>재료 물성 DB</i>"]
-    C --> D["④ Assembly / Interaction<br/><i>형상 모델, 접촉 조건</i>"]
-    D --> E["⑤ Load / BC 설정<br/><i>하중·구속 조건</i>"]
+    A["① 해석 의뢰<br/>설계 도면, 요구 SPEC"] --> B["② Part 모델 준비<br/>CAD .step / .iges"]
+    B --> C["③ Property 설정<br/>재료 물성 DB"]
+    C --> D["④ Assembly / Interaction<br/>형상 모델, 접촉 조건"]
+    D --> E["⑤ Load / BC 설정<br/>하중·구속 조건"]
     E --> F["⑥ Mesh 생성"]
     F --> G["⑦ Solving"]
     G --> H["⑧ 결과 검토<br/>Visualization"]
     H --> I["⑨ 시험 / 해석 상관성 비교"]
     I --> J["⑩ 해석 보고서 작성"]
-    J -.설계 반영.-> A
+    J -.->|설계 반영| A
 
     style A fill:#e8f0fe,stroke:#4285f4,color:#111
     style G fill:#fce8e6,stroke:#ea4335,color:#111
