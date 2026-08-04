@@ -124,7 +124,12 @@ flowchart TD
     style J fill:#e6f4ea,stroke:#34a853,color:#111
 ```
 
-📄 [업무 절차 상세 (입·출력물, 팀 간 R&R) →](projects/week1-analysis-process/)
+과정을 마친 뒤 실무 해석 업무 FLOW 자료와 대조해 보니, 내가 그린 절차에는 **위아래 두 층이 빠져 있었다.**
+위에는 영업팀의 년간 개발 계획서에서 내려오는 **년간 해석 업무 계획**, 아래에는 **해석 결과 DB화**.
+한 건의 해석이 시작해서 끝나는 경로만 봤고, 그 경로를 닫는 층을 못 본 것이다.
+
+📄 [업무 절차 상세 + 실무 FLOW 대조 (입·출력물, 팀 간 R&R) →](projects/week1-analysis-process/)
+📄 [부품개발 5단계(APQP) 안에서 해석이 놓이는 자리 →](docs/04-part-development-process.md)
 
 ---
 
@@ -145,6 +150,7 @@ flowchart TD
 | [01. 유한요소해석 기초](docs/01-fea-fundamentals.md) | 강성·자유도·요소 선택·요소망 작성 지침 |
 | [02. 재료 물성과 응력-변형률 선도](docs/02-stress-strain.md) | 공칭 vs 진응력, 소성 물성 입력 |
 | [03. Abaqus 트러블슈팅 로그](docs/03-troubleshooting-log.md) | 실제로 막혔던 지점과 해결 근거 |
+| [04. 부품개발 프로세스(APQP)와 해석의 위치](docs/04-part-development-process.md) | 개발 5단계·게이트, 해석이 개입하는 3지점, 과제 회고 |
 
 ---
 
