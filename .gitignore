@@ -1,0 +1,41 @@
+# Abaqus 작업 파일
+*.odb
+*.dat
+*.msg
+*.sta
+*.com
+*.prt
+*.res
+*.sim
+*.stt
+*.mdl
+*.lck
+*.023
+*.abq
+*.pac
+*.sel
+*.ipm
+*.log
+abaqus_plugins/
+abaqus.rpy*
+explicit.env
+
+# CAE 모델 (용량이 크므로 제외)
+*.cae
+*.jnl
+*.rec
+
+# 강의 제공 자료 (교육기관 저작물)
+*.pdf
+*.pptx
+*.docx
+*.xlsx
+*.stp
+*.step
+*.igs
+*.iges
+
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
