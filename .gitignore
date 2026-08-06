@@ -27,6 +27,7 @@ explicit.env
 
 # 강의 제공 자료 (교육기관 저작물)
 *.pdf
+!assets/*.pdf
 *.pptx
 *.docx
 *.xlsx
